@@ -1,0 +1,256 @@
+.nav{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: auto;
+    background-color: rgb(0, 0, 0);
+}
+.logo{
+    width: 20%;
+}
+.logoimg{
+    height: 40px;
+    width: 48px;
+    padding-left: 4px;
+    border-radius: 25px;
+    justify-content: center;
+}
+.navlist{
+    width: 60%;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+    font-weight: bold;
+    
+}
+li a{
+    color: white;
+    text-decoration: none;
+    font-family: cursive;
+}
+li a:hover {
+    color: rgb(255, 241, 118);
+    
+}
+
+.icon{
+    display: flex;
+    width: 20%;
+    justify-content: flex-end;
+    
+}
+
+.button{
+    padding: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 18px;
+    margin: 3px;
+    color: black;
+}
+
+.button:hover{
+    background-color: red;
+    color: white;
+}
+#active{
+    margin-right: 0;
+    background-color: red;
+    color: white;
+}
+#active:hover{
+    color: black;  
+}
+.part1{
+    font-size: 50px;
+    font-family:cursive;
+    font-weight: bolder;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.button1{
+    padding: 10px 24px;
+    font-family:cursive;
+    font-weight: bolder;
+    border-radius: 15px;
+    
+}
+#book{
+    background-color: red;
+    border-color: red;
+    color: white;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+#book span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.3s;
+}
+#book span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.3s;
+}
+  
+#book:hover span {
+    padding-right: 25px;
+}
+  
+#book:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+#book:hover{
+    background-color: white;
+    color:red;
+}
+#order{
+    border-color: red;
+    background-color: white;
+    color: red;   
+}
+#order:hover{
+    background-color: red;
+    border-color: red;
+    color: white;
+}
+.right1{
+    padding-left: 60px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    height: 350px;
+    width: 450px;
+}
+.searchbar{  
+    display: flex;
+}
+.search{
+    height: 30px;
+    width: 60%;
+    margin-left: 10%;
+    font-family: cursive;
+}
+.submit{
+    height:35px;
+    width: 40px;
+}
+.submit:hover{
+    border: solid black;
+    
+}
+.design{
+    width: auto;
+    display: flex;
+}
+.pattern{
+    height: 60px;
+    padding-left: 30%;
+    width: 65%;
+    display: flex;
+    justify-content: flex-end;
+}
+.part3{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.imgs{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   height: 0ch;
+}
+
+.list{
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+    font-weight: bold;   
+}
+
+.item1{
+    padding-left: 80px;
+    padding-right: 100px;
+    display: flex;
+}
+.item2{
+    padding-left: 220px;
+    padding-right: 100px;
+    display: flex;
+}
+.item3{
+    padding-left: 200px;
+    padding-right: 100px;
+    display: flex;
+}
+.item4{
+    padding-left: 200px;
+    padding-right: 100px;
+    display: flex;
+    height: 30px;
+}
+
+.add1{
+    padding-left: 60px;
+    
+    display: flex;
+}
+.add2{
+    padding-left: 270px;
+    
+    display: flex;
+}
+.add3{
+    padding-left: 250px;
+    
+    display: flex;
+}
+.add4{
+    padding-left: 250px;
+    display: flex;
+    
+}
+.addinglist{
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+    font-weight: bold; 
+}
+
+
+.background{
+    width: 100%;
+   
+}
+
+footer{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    width: auto;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.social{
+    height: 50px;
+    padding-right: 20px;
+}
